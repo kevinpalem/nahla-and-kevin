@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Campana";
+    src: url("CampanaScriptPersonalUseRegular-x3BBj.otf");
+}
+
+.gallery-container{
+    display: grid;
+    gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item img{
+    width: 100%;
+}
+
+.gallery-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding-top: 15px;
+    font-family: "arial";
+  
+}
+
+.gallery-item:hover{
+    background-color: rgb(0, 255, 255, 0.3);
+}
+
+.gallery-item > h4{
+    position: absolute;
+    top: 105px;
+    color: cyan;
+}
+
+.gallery-item > p{
+    color: black;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+a:hover h4{
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+.row
+{
+    justify-content: center;
+}
