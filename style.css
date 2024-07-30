@@ -56,3 +56,11 @@ a:hover h4{
 {
     justify-content: center;
 }
+
+@media screen and (max-width:480px) {
+
+    .gallery-item > h4{
+        font-size: 0.5rem;
+    }
+    
+}
